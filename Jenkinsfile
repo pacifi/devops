@@ -4,7 +4,7 @@ pipeline {
         
         stage('Build dev accounting-dist') {
             when {
-                branch 'main'
+                branch 'master'
                 
             }
             steps {
